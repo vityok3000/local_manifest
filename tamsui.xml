@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest>		
-		<remove-project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
-		<remove-project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
-		<remove-project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" />
+<manifest>
+
+	<remove-project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
+	<remove-project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
+	<remove-project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" />
 		
 		
         <project path="device/sony/tapioca_ss" name="TamsuiCM11/android_device_sony_tapioca_ss" revision="cm-11.0"/>
@@ -22,5 +23,6 @@
         
         <!-- JLO -->
         <project path="device/sony/jlo" name="TamsuiCM11/android_device_sony_jlo" revision="cm-11.0-EXPERIMENTAL" />
+        
 </manifest>
 
