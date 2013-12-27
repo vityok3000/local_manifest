@@ -24,5 +24,8 @@
         <!-- JLO -->
         <project path="device/sony/jlo" name="TamsuiCM11/android_device_sony_jlo" revision="cm-11.0-EXPERIMENTAL" />
         
+        <!-- MESONA -->
+        <project path="device/sony/mesona" name="TamsuiCM11/android_device_sony_mesona" revision="cm-11.0" />
+        
 </manifest>
 
