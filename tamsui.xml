@@ -12,6 +12,9 @@
 	<project path="device/sony/jlo" name="TamsuiCM11/android_device_sony_jlo" revision="cm-11.0-EXPERIMENTAL" />
 	<project path="device/sony/mesona" name="TamsuiCM11/android_device_sony_mesona" revision="cm-11.0" />
 	
+	<!-- Proprietary files -->
+	<project path="vendor/sony" name="TamsuiCM11/proprietary_vendor_sony" revision="cm-10.2" />
+	
 	<!-- Drivers -->
 	<project path="hardware/qcom/display-legacy" name="TamsuiCM11/android_hardware_qcom_display-legacy" revision="cm-11.0_old" />
         <project path="hardware/qcom/audio-legacy" name="TamsuiCM11/android_hardware_qcom_audio-legacy" revision="cm-11.0" />
@@ -21,13 +24,11 @@
         <project path="system/core" name="TamsuiCM11/android_system_core" groups="pdk" revision="stable/cm-11.0" />
         <project path="hardware/libhardware_legacy" name="TamsuiCM11/android_hardware_libhardware_legacy" groups="pdk" revision="stable/cm-11.0" />
         <project path="frameworks/opt/telephony" name="TamsuiCM11/android_frameworks_opt_telephony" groups="pdk" revision="stable/cm-11.0" />
-        <!--<project path="frameworks/base" name="TamsuiCM11/android_frameworks_base" revision="stable/cm-11.0" /> -->
         
         <!-- Remove old CM repos -->
         <remove-project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
 	<remove-project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
 	<remove-project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" />
-	<!--<remove-project path="frameworks/base" name="CyanogenMod/android_frameworks_base" /> -->
 	
 </manifest>
 
