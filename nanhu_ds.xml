@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <!-- Device Repos -->
+        <project path="device/sony/nanhu_ds" name="TamsuiCM11/android_device_sony_nanhu_ds" revision="cm-11.0"/>
+        <project path="device/sony/tamsui-common" name="TamsuiCM11/android_device_sony_tamsui-common" revision="cm-11.0"/>
+        <project path="kernel/sony/nanhu_ds" name="TamsuiCM11/android_kernel_sony_msm7x27a-nanhu" revision="cm-11.0"/>
+        <project path="vendor/sony/nanhu_ds" name="hsr0/android_vendor_sony_nanhu_ds" revision="cm-11.0"/>
+
+        <!-- Dependancies -->
+        <project path="device/sony/qcom-common" name="CyanogenMod/android_device_sony_qcom-common" revision="cm-11.0"/>
+        <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" revision="cm-11.0"/>
+        
+        <!-- Drivers -->
+        <project path="hardware/qcom/display-legacy" name="TamsuiCM11/android_hardware_qcom_display-legacy" revision="cm-11.0_old" />
+        <project path="hardware/qcom/audio-legacy" name="TamsuiCM11/android_hardware_qcom_audio-legacy" revision="cm-11.0" />
+        <project path="hardware/qcom/media-legacy" name="TamsuiCM11/android_hardware_qcom_media-legacy" revision="cm-11.0" />
+        <project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan" revision="jellybean" />
+        
+</manifest>
