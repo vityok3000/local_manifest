@@ -9,14 +9,14 @@
         
         <!-- Devices -->
         <project path="device/sony/tapioca_ss" name="TamsuiCM11/android_device_sony_tapioca_ss" revision="cm-11.0"/>
-	<project path="device/sony/jlo" name="TamsuiCM11/android_device_sony_jlo" revision="cm-11.0-EXPERIMENTAL" />
+	<project path="device/sony/jlo" name="TamsuiCM11/android_device_sony_jlo" revision="cm-11.0" />
 	<project path="device/sony/mesona" name="TamsuiCM11/android_device_sony_mesona" revision="cm-11.0" />
 	
 	<!-- Proprietary files -->
 	<project path="vendor/sony" name="TamsuiCM11/proprietary_vendor_sony" revision="cm-10.2" />
 	
 	<!-- Drivers -->
-	<project path="hardware/qcom/display-legacy" name="TamsuiCM11/android_hardware_qcom_display-legacy" revision="cm-11.0_old" />
+	<project path="hardware/qcom/display-legacy" name="TamsuiCM11/android_hardware_qcom_display-legacy" revision="cm-11.0-jlo" />
         <project path="hardware/qcom/audio-legacy" name="TamsuiCM11/android_hardware_qcom_audio-legacy" revision="cm-11.0" />
         <project path="hardware/qcom/media-legacy" name="TamsuiCM11/android_hardware_qcom_media-legacy" revision="cm-11.0" />
         
