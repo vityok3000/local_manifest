@@ -6,6 +6,7 @@
         <project path="kernel/sony/msm7x27a" name="TamsuiCM11/android_kernel_sony_msm7x27a" revision="master" />
         <project path="device/sony/qcom-common" name="CyanogenMod/android_device_sony_qcom-common" revision="cm-11.0"/>
         <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" revision="cm-11.0"/>
+        <project path="kernel/sony/nanhu_ds" name="TamsuiCM11/android_kernel_sony_msm7x27a-nanhu" revision="cm-11.0" />
         
         <!-- Devices -->
         <project path="device/sony/tapioca_ss" name="TamsuiCM11/android_device_sony_tapioca_ss" revision="cm-11.0"/>
