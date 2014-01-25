@@ -21,7 +21,9 @@
 	<project path="hardware/qcom/display-legacy" name="TamsuiCM11/android_hardware_qcom_display-legacy" revision="cm-11-jlo" />
         <project path="hardware/qcom/audio-legacy" name="TamsuiCM11/android_hardware_qcom_audio-legacy" revision="cm-11.0" />
         <project path="hardware/qcom/media-legacy" name="TamsuiCM11/android_hardware_qcom_media-legacy" revision="cm-11.0" />
-        
+        <!-- Camera requires new AV -->
+        <project path="frameworks/av" name="TamsuiCM11/android_frameworks_av" revision="cm-11.0" />
+        <project path="frameworks/native" name="LegacyMod/android_frameworks_native" revision="cm-11.0" />
         <!-- CyanogenMod projects -->
         <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" />
         
@@ -30,6 +32,8 @@
         <project path="hardware/libhardware_legacy" name="TamsuiCM11/android_hardware_libhardware_legacy" groups="pdk" revision="stable/cm-11.0" />
         
         <!-- Remove old CM repos -->
+        <remove-project path="frameworks/av" name="CyanogenMod/android_framewors_av"/>
+        <remove-project path="frameworks/native" name="CyanogenMod/android_framewors_native"/>
         <remove-project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
 	<remove-project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
 	
