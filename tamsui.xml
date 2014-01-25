@@ -22,6 +22,9 @@
         <project path="hardware/qcom/audio-legacy" name="TamsuiCM11/android_hardware_qcom_audio-legacy" revision="cm-11.0" />
         <project path="hardware/qcom/media-legacy" name="TamsuiCM11/android_hardware_qcom_media-legacy" revision="cm-11.0" />
         
+        <!-- CyanogenMod projects -->
+        <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" />
+        
         <!-- Forked CM repos -->
         <project path="system/core" name="TamsuiCM11/android_system_core" groups="pdk" revision="stable/cm-11.0" />
         <project path="hardware/libhardware_legacy" name="TamsuiCM11/android_hardware_libhardware_legacy" groups="pdk" revision="stable/cm-11.0" />
