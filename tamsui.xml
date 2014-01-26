@@ -26,7 +26,7 @@
         <project path="frameworks/av" name="TamsuiCM11/android_frameworks_av" revision="cm-11.0" />
         <project path="frameworks/native" name="LegacyMod/android_frameworks_native" revision="cm-11.0" />
         <!-- CyanogenMod projects -->
-        <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" />
+        <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH"  />
         
         <!-- Forked CM repos -->
         <project path="system/core" name="TamsuiCM11/android_system_core" groups="pdk" revision="stable/cm-11.0" />
