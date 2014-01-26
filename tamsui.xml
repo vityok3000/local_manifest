@@ -13,8 +13,9 @@
 	<project path="device/sony/jlo" name="TamsuiCM11/android_device_sony_jlo" revision="cm-11.0" />
 	<project path="device/sony/mesona" name="TamsuiCM11/android_device_sony_mesona" revision="cm-11.0" />
 	<project path="device/sony/nanhu_ds" name="TamsuiCM11/android_device_sony_nanhu_ds" revision="cm-11.0" />
+	<project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan" revision="jellybean" />
 
-	<!-- Proprietary files -->
+        <!-- Proprietary files -->
 	<project path="vendor/sony" name="TamsuiCM11/proprietary_vendor_sony" revision="cm-10.2" />
 	
 	<!-- Drivers -->
