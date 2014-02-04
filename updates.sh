@@ -11,9 +11,4 @@ cherries+=(52994)
 # DisplayDevice: Backwards compatibility with old EGL
 cherries+=(54257)
 
-# Allow using Classic WebView
-cherries+=(56054)
-# Revert "Remove the classic WebView from the build."
-cherries+=(56055)
-
 ${android}/build/tools/repopick.py -b ${cherries[@]}
