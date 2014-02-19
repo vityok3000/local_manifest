@@ -18,6 +18,9 @@
         <!-- Proprietary files -->
 	<project path="vendor/sony" name="TamsuiCM11/proprietary_vendor_sony" revision="cm-11.0" />
 	
+	<!-- Fix all libwebcore related issues -->
+	<project path="external/webkit" name="rebelos/caf_webkit-legacy" revision="kk_2.7_rb1.16" />
+	
 	<!-- Drivers -->
 	<project path="hardware/qcom/display-legacy" name="TamsuiCM11/android_hardware_qcom_display-legacy" revision="cm-11-jlo" />
         <project path="hardware/qcom/audio-legacy" name="TamsuiCM11/android_hardware_qcom_audio-legacy" revision="cm-11.0" />
