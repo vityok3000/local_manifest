@@ -19,7 +19,9 @@
 	<project path="vendor/sony" name="TamsuiCM11/proprietary_vendor_sony" revision="cm-11.0" />
 	
 	<!-- Fix all libwebcore related issues -->
+	<remove-project name="CyanogenMod/android_packages_apps_Browser" />
 	<project path="external/webkit" name="rebelos/caf_webkit-legacy" revision="kk_2.7_rb1.16" />
+	<project path="packages/apps/Browser" name="LegacyXperia/android_packages_apps_Browser"  />
 	
 	<!-- Drivers -->
 	<project path="hardware/qcom/display-legacy" name="TamsuiCM11/android_hardware_qcom_display-legacy" revision="cm-11-jlo" />
