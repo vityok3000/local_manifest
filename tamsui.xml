@@ -20,7 +20,6 @@
 	
 	<!-- Projects with some needed Legacy Additions for Tamsui Devices -->
 	<remove-project name="CyanogenMod/android_packages_apps_Browser" />
-	<project path="external/webkit" name="rebelos/caf_webkit-legacy" revision="kk_2.7_rb1.16" />
 	<project path="packages/apps/Browser" name="LegacyXperia/android_packages_apps_Browser"  />
 	
 	<!-- Drivers -->
