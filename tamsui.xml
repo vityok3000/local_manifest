@@ -20,8 +20,10 @@
 	
 	<!-- Projects with some needed Legacy Additions for Tamsui Devices -->
 	<remove-project name="CyanogenMod/android_packages_apps_Browser" />
+	<remove-project name="CyanogenMod/android_packages_apps_SoundRecorder" />
 	<project path="packages/apps/Browser" name="LegacyXperia/android_packages_apps_Browser"  />
-	
+	<project path="packages/apps/SoundRecorder" name="TeamHackLG/android_packages_apps_SoundRecorder" revision="cm-11.0" />
+
 	<!-- Drivers -->
 	<project path="hardware/qcom/display-legacy" name="TamsuiCM11/android_hardware_qcom_display-legacy" revision="cm-11-jlo" />
         <project path="hardware/qcom/audio-legacy" name="TamsuiCM11/android_hardware_qcom_audio-legacy" revision="cm-11.0" />
