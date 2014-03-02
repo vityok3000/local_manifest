@@ -16,7 +16,7 @@
 	<project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan" revision="jellybean" />
 
         <!-- Proprietary files -->
-	<project path="vendor/sony" name="TamsuiCM11/proprietary_vendor_sony" revision="cm-11.0" />
+	<project path="vendor/sony" name="TamsuiCM11/mini_proprietary_vendor_sony" revision="cm-11.0" />
 	
 	<!-- Projects with some needed Legacy Additions for Tamsui Devices -->
 	<remove-project name="CyanogenMod/android_packages_apps_Browser" />
