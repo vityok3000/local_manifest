@@ -31,6 +31,9 @@
         
         <!-- CyanogenMod projects -->
         <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH"  />
+        
+        <!-- Miro Kernel -->
+        <project path="kernel/sony/msm7x27a" name="TamsuiCM11/android_kernel_sony_msm7x27a-Mesona" revision="master" />
 	
 </manifest>
 
