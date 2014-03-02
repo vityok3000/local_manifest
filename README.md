@@ -54,7 +54,7 @@ curl https://raw.github.com/TamsuiCM11/local_manifests/cm-11.0/patches.sh > ~/an
   brunch cm_tapioca_ss-userdebug
 ```
   
-Now go and grab a coffee or find something construtive to do for a couple of hours! 
+Now go and grab a coffee or find something construtive to do for a couple of hours! (or watch My Little Pony /Friendship is Magic/ )
 
 -- joebonrichie
 
