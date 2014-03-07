@@ -1,4 +1,4 @@
 local_manifest
 ==============
 
-Android Local Manifest for Building ROMs
+Local Manifest For Compiling Using jjm34 source for the Xperia E SS.
