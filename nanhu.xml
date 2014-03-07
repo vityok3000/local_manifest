@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="googlecode"
+    fetch="https://code.google.com/p" />
+	
+	<remote  name="kernel.org"
+    fetch="git://git.kernel.org/pub/scm" />
+  
+  <project path="kernel/sony/nanhu_ds" name="der-koenig/android_kernel_sony_msm7x27a" remote="github" revision="nanhu/cm-11.0
+  <project path="kernel/sony/external/compat-wireless" name="der-koenig/android_external_compat-wireless" remote="github" revision="sony" />
+  <project path="kernel/backports" name="android_kernel_backports" remote="github" revision="nanhu/cm-11.0" />
+ 
+  <project path="device/qcom/common" name="der-koenig/android_device_qcom_common" remote="github" revision="codeaurora-cm" />
+  <project path="device/sony/tamsui-common" name="der-koenig/android_device_sony_tamsui-common" remote="github" revision="cm-11.0" />
+  <project path="device/sony/nanhu_ds" name="der-koenig/android_device_sony_nanhu_ds" remote="github" revision="cm-11.0" />
+ 
+  <remove-project name="CyanogenMod/android_bionic" />
+  <project path="bionic" name="der-koenig/android_bionic" remote="github" revision="nanhu/cm-11.0" />
+ 
+  <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
+  <project path="external/bluetooth/bluez" name="der-koenig/android_external_bluetooth_bluez" remote="github" revision="nanhu/cm-11.0" />
+  <project path="external/bluetooth/glib" name="aosp-bluez.glib" remote="googlecode" revision="master" />
+  <project path="external/bluetooth/sbc" name="bluetooth/sbc" remote="kernel.org" revision="master" />
+ 
+  <project path="hardware/qcom/display-legacy" name="der-koenig/android_hardware_qcom_display-legacy" remote="github" revision="nanhu/cm-11.0" />
+  <project path="hardware/qcom/audio-legacy" name="TamsuiCM11/android_hardware_qcom_audio-legacy" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/media-legacy" name="TamsuiCM11/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
+  <project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan" revision="jellybean" />
+ 
+  <remove-project name="CyanogenMod/android_frameworks_base" />
+  <project path="frameworks/base" name="der-koenig/android_frameworks_base" remote="github" revision="nanhu/cm-11.0" />
+ 
+  <remove-project name="CyanogenMod/android_frameworks_av" />
+  <project path="frameworks/av" name="der-koenig/android_frameworks_av" remote="github" revision="nanhu/cm-11.0" />
+ 
+  <project path="vendor/sony/nanhu_ds" name="der-koenig/proprietary_vendor_sony_nanhu_ds" remote="github" revision="cm-11.0" />
+ 
+ <manifest>
