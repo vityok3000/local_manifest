@@ -54,7 +54,16 @@ curl https://raw.github.com/TamsuiCM11/local_manifests/cm-11.0/patches.sh > ~/an
   brunch cm_tapioca_ss-userdebug
 ```
   
-Now go and grab a coffee or find something construtive to do for a couple of hours! (or watch My Little Pony /Friendship is Magic/ )
+Now go and grab a coffee or find something construtive to do for a couple to a few hours depending on your computer! 
+
+To run a sequential build simply run the ```breakfast``` and ```brunch``` commands again for your device.
+
+To remove all compiled files after running ```brunch```, simply run ```make clean```
+
+To get the latest patches from cyanogenmod and TamsuiCM11 run ```repo sync```
+note: you will also have to apply patches again after running ```repo sync``` by running ```./patches.sh```
+
+The patches.sh file isn't updated automatically after running ```repo sync``` so you'll have to update it yourself by running step 4 again. 
 
 -- joebonrichie
 
