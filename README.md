@@ -19,7 +19,7 @@ curl https://raw.github.com/TamsuiCM11/local_manifests/cm-11.0/tamsui.xml > ~/an
 
 3) repo sync (again) to download the additional repositories
 ```
-repo sync -j8 -f --no-clone-bundle
+repo sync -j8 --no-clone-bundle
 ```
 
 4) Download and apply the patches file containing patches not in the source
