@@ -22,7 +22,7 @@
 	<!-- Projects with some needed Legacy Additions for Tamsui Devices -->
 	<remove-project name="CyanogenMod/android_packages_apps_Browser" />
 	<remove-project name="CyanogenMod/android_packages_apps_SoundRecorder" />
-	<project path="packages/apps/Browser" name="LegacyXperia/android_packages_apps_Browser" remote="github"  />
+	<project path="packages/apps/Browser" name="LegacyXperia/android_packages_apps_Browser" remote="github" revision="cm-11.0" />
 	<project path="packages/apps/SoundRecorder" name="TeamHackLG/android_packages_apps_SoundRecorder" remote="github" revision="cm-11.0" />
 
 	<!-- Drivers -->
