@@ -10,7 +10,7 @@
         <project path="kernel/sony/mesona" name="TamsuiCM11/android_kernel_sony_msm7x27a-Mesona" remote="github" revision="master" />
         
         <!-- Devices -->
-        <project path="device/sony/tapioca_ss" name="TamsuiCM11/android_device_sony_tapioca_ss" remote="github" revision="cm-11.0" />
+        <project path="device/sony/tapioca" name="TamsuiCM11/android_device_sony_tapioca" remote="github" revision="cm-11.0" />
 	<project path="device/sony/jlo" name="TamsuiCM11/android_device_sony_jlo" remote="github" revision="cm-11.0" />
 	<project path="device/sony/mesona" name="TamsuiCM11/android_device_sony_mesona" remote="github" revision="cm-11.0" />
 	<project path="device/sony/nanhu_ds" name="TamsuiCM11/android_device_sony_nanhu_ds" remote="github" revision="cm-11.0" />
